@@ -1,11 +1,11 @@
-import gg.essential.gradle.util.*
+// import gg.essential.gradle.util.*
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 
 plugins {
     kotlin("jvm")
-    id("gg.essential.multi-version")
-    id("gg.essential.defaults")
+    // id("gg.essential.multi-version")
+    // id("gg.essential.defaults")
     id("com.github.johnrengelman.shadow")
     id("net.kyori.blossom")
 }
